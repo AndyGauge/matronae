@@ -130,7 +130,7 @@ export const authors = [
   },
   {
     name: 'The preservers of the quiet voices',
-    symbols: '♂',
+    symbols: '♀♂',
     epithet: 'The Anonymous',
     dates: 'various, c. 500 BCE – c. 100 BCE',
     books: ['Ruth', 'Esther', 'Joel'],
