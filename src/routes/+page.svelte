@@ -60,7 +60,7 @@
     <h1 class="vt-title">
       <span class="italic">Matronae</span>
     </h1>
-    <div class="sub">Thirty-five passages from the Hebrew Bible and the New Testament,<br />arranged from the women God sent to lead to the verses used to bar women from teaching.</div>
+    <div class="sub">Forty passages from the Hebrew Bible, the New Testament, and the deuterocanon,<br />arranged from the women God sent to lead to the verses used to bar women from teaching.</div>
     <div class="prompt">To find your position, see which of these you weight most.</div>
 
     <div class="gradient" style:background={gradient}>

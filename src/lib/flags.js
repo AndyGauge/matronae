@@ -22,6 +22,12 @@ const BOTH = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 16" aria-l
 <text x="18" y="11" text-anchor="middle" font-family="Georgia, serif" font-size="7.5" font-style="italic" font-weight="600" fill="#14110d">NT</text>
 </svg>`;
 
+const DC = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 16" aria-label="Deuterocanon">
+<rect width="24" height="16" fill="#c9b886"/>
+<rect x="0.5" y="0.5" width="23" height="15" fill="none" stroke="#14110d" stroke-width="0.6" stroke-opacity="0.35"/>
+<text x="12" y="11" text-anchor="middle" font-family="Georgia, serif" font-size="9" font-style="italic" font-weight="600" fill="#14110d">DC</text>
+</svg>`;
+
 /**
  * @param {string} jurisdiction
  * @returns {string}
@@ -30,8 +36,10 @@ export function flagFor(jurisdiction) {
   if (!jurisdiction) return '';
   const hasOT = /Old Testament/i.test(jurisdiction);
   const hasNT = /New Testament/i.test(jurisdiction);
+  const hasDC = /Deuterocanon/i.test(jurisdiction);
   if (hasOT && hasNT) return BOTH;
   if (hasNT) return NT;
   if (hasOT) return OT;
+  if (hasDC) return DC;
   return '';
 }

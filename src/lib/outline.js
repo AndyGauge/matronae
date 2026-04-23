@@ -369,10 +369,10 @@ const raw = [
     context: 'Peter to Christians scattered across Asia Minor under Nero',
     year: 64,
     spectrum: 1,
-    gesture: '*Husbands, live with your wives in an understanding way, showing honor to the woman as the weaker vessel, since they are heirs with you of the grace of life.* Hierarchy and co-heirship, in the same sentence.',
+    gesture: '*Husbands, live with your wives in an understanding way, showing honor to the woman as the weaker vessel, since they are heirs with you of the grace of life, so that your prayers may not be hindered.* Hierarchy and co-heirship, in the same sentence.',
     body: '1 Peter 3:7 addresses Christian husbands with a compressed double message. The word *asthenesteros* ("weaker") likely refers to social and physical vulnerability in the first-century Roman world, not to moral or spiritual inferiority. Husbands are told to honor their wives *precisely because* the wives are *sunklēronomoi* — co-heirs — of the grace of life. The grammar ties prayer itself to this honor: "so that your prayers may not be hindered." Within a household code that still assumes male headship, Peter binds the husband\'s access to God to the honor he gives his wife.',
-    citation: '1 Peter 3:1–7.',
-    link: 'https://www.biblegateway.com/passage/?search=1+Peter+3%3A1-7&version=ESV',
+    citation: '1 Peter 3:7.',
+    link: 'https://www.biblegateway.com/passage/?search=1+Peter+3%3A7&version=ESV',
     culture: 'Roman *paterfamilias* authority carried in principle the power of life and death (*vitae necisque potestas*) over wife, children, and slaves — though by the first century the ancient extreme had been curtailed by custom and by the Lex Julia. Peter\'s command to husbands to honor wives as co-heirs, and to tie their access to God to it, inverts the direction of Roman household power at its source. The letter is written under Nero, as the Neronian persecution of Christians is beginning; the call to honor wives lands in a political moment of household strain.',
     eli5: 'Peter tells husbands: your wives are physically more vulnerable, so treat them with extra honor. They are co-heirs with you of salvation. If you don\'t honor them, God won\'t hear your prayers. Hierarchy and deep equality, in the same paragraph.'
   },
@@ -407,6 +407,32 @@ const raw = [
 
   // ───────────── wives submit (+3) ─────────────
   {
+    title: 'A woman\'s vow, her husband\'s veto',
+    jurisdiction: 'Old Testament · Numbers',
+    context: 'Moses at the plains of Moab, final legal instructions before the land',
+    year: -1250,
+    spectrum: 3,
+    gesture: '*If a woman makes a vow to the LORD and her husband hears of it and says nothing, her vow stands. But if her husband makes it null and void on the day he hears it, her vow shall not stand.* A woman\'s direct religious commitment to God can be overridden by her father or her husband.',
+    body: 'Numbers 30:3–15 lays out a legal framework in which a woman\'s vow to God stands only if the male head of her household does not veto it on the day he learns of it. An unmarried daughter\'s vow is subject to her father. A married woman\'s vow is subject to her husband. Only a widow\'s or divorced woman\'s vow stands without male review. The assumption is that a woman\'s direct relationship with God routes through a male legal guarantor. The passage survives into the rabbinic tradition as the source of extensive Mishnaic regulation (tractate *Nedarim*) and is the clearest Hebrew Bible text placing women\'s religious agency under male authority by statute.',
+    citation: 'Numbers 30:3–15.',
+    link: 'https://www.biblegateway.com/passage/?search=Numbers+30%3A3-15&version=ESV',
+    culture: 'Code of Hammurabi §§128–137 and the Middle Assyrian Laws §A-36 through §A-40 include parallel provisions making a husband\'s consent required for a wife\'s legal or financial commitments. The Elephantine papyri (5th century BCE Egypt) preserve marriage contracts with similar clauses. Numbers 30 codifies as law what the surrounding ANE legal systems already had in place — the distinctively Israelite move is the religious dimension, that a vow to God can be vetoed by a human husband.',
+    eli5: 'Under Numbers 30, a woman\'s direct religious vow to God is legally subject to her father or husband\'s veto on the day he hears of it. Widows and divorced women can vow freely. Married women and daughters need male approval. The Mishnah later built a whole tractate on this.'
+  },
+  {
+    title: 'Male fifty shekels, female thirty',
+    jurisdiction: 'Old Testament · Leviticus',
+    context: 'Priestly Torah, redemption price for persons vowed to the sanctuary',
+    year: -1200,
+    spectrum: 3,
+    gesture: 'When a person is dedicated to the LORD, the valuation is set by sex and age. *A male from twenty years old to sixty years old, fifty shekels of silver... and if it is a female, thirty shekels.* Forty percent less.',
+    body: 'Leviticus 27:1–8 sets the redemption price for a person vowed to the sanctuary. The table runs by age and sex: an adult male is valued at fifty shekels; an adult female at thirty — a 40% differential. A male child (5–20) is valued at twenty; a female child at ten — a 50% differential. The passage is a redemption instrument (the money is the price if the vow is commuted, not a purchase), but its valuation table is the clearest numeric gender hierarchy in the Torah. Rabbinic tradition preserved the valuations literally; modern critical scholarship reads the differential as reflecting comparative wages in an agrarian economy — though even on that reading the asymmetry is theologically codified.',
+    citation: 'Leviticus 27:1–8.',
+    link: 'https://www.biblegateway.com/passage/?search=Leviticus+27%3A1-8&version=ESV',
+    culture: 'Gendered compensation tables run throughout ancient Near Eastern law. Code of Hammurabi §§209–214 sets different compensation for injury to a man\'s daughter versus a man\'s slave versus a free man. Middle Assyrian Laws §A-50 through §A-59 preserve differentiated bride-price and injury payments. The 40–50% ratio in Leviticus 27 is roughly in line with the ratios preserved in contemporary Mesopotamian legal material. Israel\'s distinctive contribution was religious: the valuation is what you pay to redeem a vow, not to purchase a person.',
+    eli5: 'If you dedicated yourself to the sanctuary and wanted to pay the redemption price instead, Leviticus 27 sets the table: an adult man costs fifty shekels, an adult woman thirty. Male children twenty, female children ten. A 40–50% discount on women across the board.'
+  },
+  {
     title: 'He shall rule over you',
     jurisdiction: 'Old Testament · Genesis',
     context: 'After the fall, outside the garden',
@@ -420,6 +446,19 @@ const raw = [
     eli5: 'After the fall, God lists four consequences: snakes crawl, childbirth hurts, the ground grows thorns, and the husband will rule over the wife. Christians don\'t preserve crawling snakes, refuse epidurals, or ban weed killer. Only the fourth one gets treated as a blueprint. That\'s selective reading, not exegesis.'
   },
   {
+    title: 'Woman the glory of man',
+    jurisdiction: 'New Testament · 1 Corinthians',
+    context: 'Paul on head coverings in Corinthian worship',
+    year: 55,
+    spectrum: 3,
+    gesture: '*Man is the image and glory of God, but woman is the glory of man. For man was not made from woman, but woman from man. Neither was man created for woman, but woman for man.* The most hierarchical lines in the Pauline corpus. Eight verses later Paul qualifies them out of existence.',
+    body: '1 Corinthians 11:7–9 is the middle of the head-covering argument. The logic runs: Genesis 2 has woman made from man, and made *for* man. Therefore woman reflects man\'s glory; man reflects God\'s. Read on its own, the passage is the starkest statement of created-order hierarchy in the New Testament. The complication is that Paul himself refuses to stop there. Verses 11–12 reverse the logic: *nevertheless, in the Lord, woman is not independent of man, nor man of woman; for as woman came from man, so also man comes through woman; and all things come from God.* Paul gives the hierarchical argument, then takes it back. Complementarian readers emphasize verses 7–9 as the permanent teaching; egalitarian readers emphasize 11–12 as Paul\'s own qualifier. The passage reads as Paul arguing with himself in real time.',
+    citation: '1 Corinthians 11:7–9; cf. 11:11–12.',
+    link: 'https://www.biblegateway.com/passage/?search=1+Corinthians+11%3A7-12&version=ESV',
+    culture: 'The hierarchical argument mirrors Aristotle\'s *Politics* Book I.5 almost exactly: the household has a natural ruler (the husband) and a natural ruled (the wife), by the order of creation. Stoic treatises (Musonius Rufus, Hierocles) made parallel arguments. In Corinth — where Greek philosophical schools were active and visible — Paul is deploying a familiar argument-form his readers would have recognized instantly. What\'s unusual is what he does four verses later: he stops, qualifies, and refuses to let the hierarchical logic stand alone.',
+    eli5: 'Paul\'s sharpest hierarchical argument: woman was made from man and for man, so she reflects his glory; he reflects God\'s. Then four verses later Paul himself qualifies it: neither is independent of the other, and every man has come through a woman. He argues both sides in the same paragraph.'
+  },
+  {
     title: 'Wives, submit — as is fitting',
     jurisdiction: 'New Testament · Colossians',
     context: 'Paul writing from Roman imprisonment to the Colossian church',
@@ -429,7 +468,7 @@ const raw = [
     body: 'Colossians 3:18–19 is the compressed parallel of Ephesians 5. No theological imagery of Christ and the church; no metaphor of headship. Just two verses: wives submit, husbands love, and specifically do not be embittered against your wives. The word *pikrainesthe* ("be harsh, bitter") is used nowhere else in Paul\'s household codes and suggests Paul is correcting a concrete pattern of marital harshness in the Colossian church. The household code is not abstract theology; it is pastoral triage.',
     citation: 'Colossians 3:18–19.',
     link: 'https://www.biblegateway.com/passage/?search=Colossians+3%3A18-19&version=ESV',
-    culture: 'Colossae sat near Hierapolis and Laodicea in the Lycus Valley of Phrygia, a region famous for mixed Phrygian and Greek religion including the ecstatic Cybele and Magna Mater cults, which regularly pulled married women into overnight rites outside the household. Inscriptions from the region name female initiates and officiants in the Cybele cult. The household code\'s insistence on wifely submission *as is fitting in the Lord*, paired with husbands told not to be bitter, likely addresses a concrete local tension around women\'s religious absences and husband\'s reactive harshness.',
+    culture: 'Colossae sat near Hierapolis and Laodicea in the Lycus Valley of Phrygia, a region famous for mixed Phrygian and Greek religion including the ecstatic Cybele and Magna Mater cults, which regularly pulled married women into overnight rites outside the household. Inscriptions from the region name female initiates and officiants in the Cybele cult. The household code\'s insistence on wifely submission *as is fitting in the Lord*, paired with husbands told not to be bitter, likely addresses a concrete local tension around women\'s religious absences and husbands\' reactive harshness.',
     eli5: 'Colossians gives a shorter version: wives submit, husbands love your wives and don\'t be harsh with them. The specific word for "harsh" is used nowhere else in the household codes — it sounds like Paul is addressing a real problem in that church with husbands being bitter toward wives.'
   },
   {
@@ -439,14 +478,40 @@ const raw = [
     year: 62,
     spectrum: 3,
     gesture: '*Wives, submit to your own husbands, as to the Lord. For the husband is the head of the wife even as Christ is the head of the church.* The most-cited verse in evangelical complementarian preaching on marriage.',
-    body: 'Ephesians 5:22–24 anchors the traditional argument for male headship in marriage. Read in isolation, it commands wifely submission; read with verse 21, the whole code is grammatically a specific form of "submitting to one another." Three more observations: verses 25–33 spend twice as many words telling husbands how to love their wives as verses 22–24 spend on wifely submission, with the pattern being Christ laying down his life; the verb "submit" is never addressed to husbands as something wives do to them — it is voluntary, not demanded; and the model of headship in the passage is self-giving death, not authority over.',
+    body: 'Ephesians 5:22–24 anchors the traditional argument for male headship in marriage. Read in isolation, it commands wifely submission; read with verse 21, the whole code is grammatically a specific form of "submitting to one another." Three more observations: verses 25–33 spend twice as many words telling husbands how to love their wives as verses 22–24 spend on wifely submission, with the pattern being Christ laying down his life; the verb "submit" is never addressed to husbands as something wives do to them — it is voluntary, not demanded; and the model of headship in the passage is self-giving death, not authority over. The code closes with its most asymmetric line: *let each one of you love his wife as himself, and let the wife see that she respects her husband* (v. 33). Paul\'s own summation names two verbs — *agapatō* (love) for the husband, *phobētai* (respect, literally "fear") for the wife. Whatever the mutual submission of v. 21 means, Paul\'s closing restatement pairs love-command with respect-command, not love-command with love-command.',
     citation: 'Ephesians 5:22–33.',
     link: 'https://www.biblegateway.com/passage/?search=Ephesians+5%3A22-33&version=ESV',
     culture: 'The Greco-Roman *paterfamilias* household had legal asymmetry: the husband\'s authority was unconditional, the wife\'s only formal defense was to return to her father\'s household with her *dos* (dowry). Paul\'s reframing of headship as *Christlike self-sacrifice* introduces a cultural category — authority expressed by dying for the one under you — that is alien to Roman household law. No Roman treatise on household authority, from Aristotle through Musonius Rufus, describes headship as self-giving death. The form of the code is Greco-Roman; the content is a Christological subversion.',
-    eli5: 'The famous passage: wives submit, husbands love your wives as Christ loved the church. Twice as many words go to the husbands — and the pattern of "head" in the chapter is Christ dying for the church, not Christ ruling it.'
+    eli5: 'The famous passage: wives submit, husbands love your wives as Christ loved the church. Twice as many words go to the husbands — and the pattern of "head" in the chapter is Christ dying for the church, not Christ ruling it. The closing line (v. 33) pairs *love* for the husband with *respect* (literally "fear") for the wife — an asymmetry even mutual-submission readings have to reckon with.'
+  },
+  {
+    title: 'Wives, like Sarah, calling him lord',
+    jurisdiction: 'New Testament · 1 Peter',
+    context: 'Peter to Christians scattered across Asia Minor under Nero',
+    year: 64,
+    spectrum: 3,
+    gesture: '*Wives, submit to your own husbands, so that even if some do not obey the word, they may be won by the conduct of their wives... as Sarah obeyed Abraham, calling him lord.* One verse before the honor-the-weaker-vessel command, Peter names Sarah calling Abraham *kyrios* as the pattern.',
+    body: '1 Peter 3:1–6 is the wifely half of the household code that concludes at 3:7. Peter\'s instruction to Christian wives assumes many of them are married to non-Christian husbands (v. 1: *even if some do not obey the word*) and addresses the pastoral reality that conversion was splitting households. His counsel is to win the husband through conduct, not verbal confrontation. The appeal to Sarah calling Abraham *kyrios* is pulled from Genesis 18:12 — where Sarah uses the word privately in her thoughts, not as a formal address. Peter\'s use of it sharpens the deferential reading. The passage sits inside the same letter as the radical co-heir language of v. 7, and the tension is unresolved: the wife is *sunklēronomos* (co-heir) and also expected to address her husband as *kyrios*.',
+    citation: '1 Peter 3:1–6; Genesis 18:12.',
+    link: 'https://www.biblegateway.com/passage/?search=1+Peter+3%3A1-6&version=ESV',
+    culture: 'The Roman household in the first century was legally asymmetric; a wife\'s religious conversion to a cult not shared by her *paterfamilias* could be grounds for divorce, financial ruin, or social exclusion. Tacitus and Pliny record cases of Christian wives whose husbands reported them to magistrates. Peter\'s pastoral directive — win your husband through quiet conduct rather than open confrontation — is written into this legal reality. The *kyrios* address for Sarah mirrors Roman conventions where slaves and clients addressed their patrons as *dominus*; Peter is assimilating the Christian wife\'s posture to the surrounding culture\'s deferential forms, while the letter\'s next verse names her a full co-heir of salvation.',
+    eli5: 'Peter tells Christian wives — many of whom are married to non-Christians — to win their husbands through quiet conduct. He points to Sarah calling Abraham "lord" as the example. The next verse flips and tells husbands their wives are their co-heirs in salvation. The letter holds both at once.'
   },
 
   // ───────────── keep at home (+4) ─────────────
+  {
+    title: 'Marry, bear children, manage the house',
+    jurisdiction: 'New Testament · 1 Timothy',
+    context: 'Paul to Timothy on the widows\' roll at Ephesus',
+    year: 65,
+    spectrum: 4,
+    gesture: '*I would have younger widows marry, bear children, manage their households, and give the adversary no occasion for slander.* Paul\'s prescribed domestic scope for Christian women, in the same letter as *I do not permit a woman to teach.*',
+    body: '1 Timothy 5:3–16 addresses the church\'s enrolled widows — a kind of consecrated order receiving material support from the community. Paul restricts enrollment to widows over sixty (v. 9) and directs younger widows to leave the order, remarry, and focus on the household. Verse 14 names the prescription directly: *gamein, teknogonein, oikodespotein* — to marry, bear children, rule the house. The verb *oikodespotein* is unusual: the feminine-equivalent form of *oikodespotēs* ("master of the house"). Paul gives married women the master-of-the-house role at home, while the same letter (2:11–12) prohibits them from teaching or holding authority in the church. The two come together: the woman\'s domain is her household, not the assembly.',
+    citation: '1 Timothy 5:9–16.',
+    link: 'https://www.biblegateway.com/passage/?search=1+Timothy+5%3A9-16&version=ESV',
+    culture: 'Augustus\'s marriage legislation (*Lex Julia de Maritandis Ordinibus*, 18 BCE and the *Lex Papia Poppaea*, 9 CE) mandated remarriage for widows under age 50 and penalized the unmarried through tax and inheritance disabilities. First-century Roman society expected remarriage as the default; Tacitus and Seneca both comment on the social pressure. Paul\'s instruction to younger widows to remarry and manage households aligns with the surrounding Roman expectation. The novelty is the role-word he chose: *oikodespotein* grants the woman formal authority over the household — a Greco-Roman legal category normally reserved for male heads.',
+    eli5: 'Paul tells younger widows to leave the supported-widows order, remarry, have children, and run their households. He uses the feminine form of "master of the house" — giving them formal household authority — while the same letter bars them from authority in the church. Woman\'s domain is the home, not the assembly.'
+  },
   {
     title: 'Husband of one wife',
     jurisdiction: 'New Testament · 1 Timothy · Titus',
@@ -463,17 +528,30 @@ const raw = [
 
   // ───────────── women silent (+5) ─────────────
   {
+    title: 'From a woman sin began',
+    jurisdiction: 'Deuterocanon · Sirach',
+    context: 'Ben Sira writing wisdom literature in Jerusalem, before the Maccabean revolt',
+    year: -180,
+    spectrum: 5,
+    gesture: '*From a woman sin had its beginning, and because of her we all die.* Not in the Protestant canon. In the Catholic and Orthodox canons, and quoted by every church father who shaped the Western view of women.',
+    body: 'Sirach (Ecclesiasticus) is the writing of Jesus ben Sira, a Jerusalem sage, around 180 BCE. The book is part of the Septuagint — the Greek Jewish scriptures the early church used as its Old Testament — and is received as canonical in the Roman Catholic, Eastern Orthodox, and Ethiopian Orthodox traditions, and as non-canonical but useful by Anglican and Lutheran traditions. Protestant Bibles generally omit it. Sirach 25:24 pins the entrance of sin and death onto Eve specifically, a reading Paul himself does not use (Paul consistently names Adam as the source in Romans 5 and 1 Corinthians 15). The verse\'s influence runs through patristic theology: Tertullian calls woman *diaboli ianua* ("the devil\'s gateway") in a passage that reads as a gloss on Sirach; Chrysostom, Augustine, and Jerome all echo the line. More of the Christian teaching against women\'s leadership draws its emotional force from Sirach 25:24 than from Genesis 3:16.',
+    citation: 'Sirach 25:24. Cf. Tertullian, *On the Apparel of Women* 1.1; Augustine, *On Genesis Against the Manichees* 2.19.',
+    link: 'https://www.biblegateway.com/passage/?search=Sirach+25%3A24&version=NRSVA',
+    culture: 'Second Temple Judaism produced several texts blaming Eve for the entrance of sin: Sirach 25:24, 2 Enoch 30:17–31:6, and the *Life of Adam and Eve*. Contemporary Hellenistic culture was working through a parallel argument about Pandora in Hesiod\'s *Works and Days* as the gendered origin of human suffering. The two traditions cross-fertilized in Alexandrian Judaism. Sirach\'s contribution was to authorize the reading within a Jewish wisdom-literature genre; from there it passed into Christian patristic thought, where it did most of its actual work. The verse is short, vivid, and quotable — and for roughly fifteen hundred years it did more theological damage than Genesis 3 ever did on its own.',
+    eli5: 'Not in the Protestant canon, but in the Catholic and Orthodox canons, and shaping Christian theology for fifteen centuries. Ben Sira blames Eve for the entrance of sin and death — a move Paul does not make. Most of the church fathers\' most hostile rhetoric about women (Tertullian\'s "devil\'s gateway," etc.) draws from this verse, not from Genesis 3.'
+  },
+  {
     title: 'Let the women keep silent',
     jurisdiction: 'New Testament · 1 Corinthians',
     context: 'Paul on orderly worship in the Corinthian assembly',
     year: 55,
     spectrum: 5,
     gesture: '*Let the women keep silent in the churches. For they are not permitted to speak, but should be in submission, as the Law also says. If there is anything they desire to learn, let them ask their own husbands at home.*',
-    body: '1 Corinthians 14:34–35 flatly prohibits women from speaking in the assembly. Three interpretive problems dominate the scholarship. First, in the same letter (1 Cor 11:5) Paul assumes women are prophesying in church and only regulates how they dress while doing so — a flat contradiction with "let them keep silent." Second, "as the Law also says" is unusual for Paul and points to no specific text. Third, some early manuscripts and the Western textual tradition place these two verses after verse 40 rather than at 34–35, raising the possibility of a marginal gloss absorbed into the text. Paul either contradicts himself in the same letter, quotes a position he is countering, or the passage is a later insertion. The verse is central to the argument that women must be silent in church.',
-    citation: '1 Corinthians 14:34–35; cf. 1 Corinthians 11:5.',
+    body: '1 Corinthians 14:34–35 flatly prohibits women from speaking in the assembly. Four interpretive options dominate the scholarship. First, in the same letter (1 Cor 11:5) Paul assumes women are prophesying in church and only regulates how they dress while doing so — a flat contradiction with "let them keep silent," suggesting either self-contradiction or that Paul is quoting a position he is countering. Second, "as the Law also says" is unusual for Paul and points to no specific text, which some read as a sign he is quoting an opposing slogan rather than legislating. Third, some early manuscripts and the Western textual tradition place these two verses after verse 40 rather than at 34–35, raising the possibility of a marginal gloss later absorbed into the text. Fourth — the reading associated with Kenneth Bailey, Craig Keener, and Gordon Fee — the passage is a narrow pastoral directive to the wives of prophets in the context of prophetic weighing (v. 29: *let the others weigh what is said*). The Greek *gynaikes* can mean "women" or "wives"; paired with *tous idious andras* ("their own husbands") in v. 35, the "wives" reading is natural. A wife publicly challenging her husband\'s prophecy during the assembly\'s weighing would read, in an honor-shame culture, as a marital fracture on display — damaging the marriage and the credibility of the teaching office in one gesture. Paul\'s instruction on this reading is not silencing women generally (11:5 already has them prophesying freely) but restricting wives from publicly weighing their own husbands\' prophetic speech in the service. Take it home.',
+    citation: '1 Corinthians 14:34–35; cf. 1 Corinthians 11:5; 14:29.',
     link: 'https://www.biblegateway.com/passage/?search=1+Corinthians+14%3A34-35&version=ESV',
-    culture: 'Corinthian religion included ecstatic female prophecy in the cults of Dionysus and Isis. The city\'s public reputation was notorious — the Greek verb *korinthiazomai* ("to act like a Corinthian") meant to behave promiscuously, and Aristophanes used it as shorthand for sexual scandal. In a city with that reputation, charismatic gender-mixed Christian worship with women speaking in tongues and prophesying would have been read by outside observers through the local lens of ecstatic cult chaos. The restriction may address a specific public-relations problem in a reputationally notorious city, not a universal ecclesiology.',
-    eli5: 'Paul says women should be silent in church. But three chapters earlier in the same letter he assumed women were prophesying in church. Scholars have debated for centuries whether he contradicts himself, whether he\'s quoting an argument he disagrees with, or whether the two verses are a later insertion.'
+    culture: 'Corinthian religion included ecstatic female prophecy in the cults of Dionysus and Isis. The city\'s public reputation was notorious — the Greek verb *korinthiazomai* ("to act like a Corinthian") meant to behave promiscuously, and Aristophanes used it as shorthand for sexual scandal. In a city with that reputation, charismatic gender-mixed Christian worship — women speaking in tongues, prophesying, and weighing prophecy — would have been read by outside observers through the local lens of ecstatic cult chaos. Honor-shame logic in the Mediterranean also made public marital disagreement uniquely damaging; a wife publicly contradicting her husband in the assembly would shame both. The restriction reads as triage for a specific public-relations problem in a reputationally notorious city, not as a universal ecclesiology.',
+    eli5: 'Paul says women should be silent in church. But three chapters earlier in the same letter he assumed women were prophesying in church. Four options: he contradicts himself, he\'s quoting a view he\'s countering, the two verses are a later insertion, or — the most context-sensitive reading — it\'s specifically about wives of prophets: don\'t publicly weigh your own husband\'s prophecy during the service; take the disagreement home.'
   },
   {
     title: 'I do not permit a woman to teach',
