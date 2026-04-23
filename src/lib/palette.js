@@ -10,13 +10,13 @@ const DARK_INK = '#14110d';
 
 /** @type {Record<number, Palette>} */
 const RAMP = {
-  [-3]: { bg: '#fccdcf', ink: DARK_INK, muted: 'rgba(20,17,13,0.6)', rule: 'rgba(20,17,13,0.2)', accent: '#a0202e', mode: 'light' }, // pale red
-  [-2]: { bg: '#fadab7', ink: DARK_INK, muted: 'rgba(20,17,13,0.6)', rule: 'rgba(20,17,13,0.2)', accent: '#a04a0a', mode: 'light' }, // pale orange
-  [-1]: { bg: '#f7eaa4', ink: DARK_INK, muted: 'rgba(20,17,13,0.6)', rule: 'rgba(20,17,13,0.2)', accent: '#5a4a0a', mode: 'light' }, // pale yellow
-  [ 0]: { bg: '#cbe7ba', ink: DARK_INK, muted: 'rgba(20,17,13,0.6)', rule: 'rgba(20,17,13,0.2)', accent: '#1f5a1a', mode: 'light' }, // pale green
-  [ 1]: { bg: '#bcd9ef', ink: DARK_INK, muted: 'rgba(20,17,13,0.6)', rule: 'rgba(20,17,13,0.2)', accent: '#0f3a7a', mode: 'light' }, // pale blue
-  [ 2]: { bg: '#c9c3e6', ink: DARK_INK, muted: 'rgba(20,17,13,0.6)', rule: 'rgba(20,17,13,0.2)', accent: '#2d2080', mode: 'light' }, // pale indigo
-  [ 3]: { bg: '#dcc5e6', ink: DARK_INK, muted: 'rgba(20,17,13,0.6)', rule: 'rgba(20,17,13,0.2)', accent: '#4a1a7a', mode: 'light' }  // pale violet
+  [-3]: { bg: '#fddee0', ink: DARK_INK, muted: 'rgba(20,17,13,0.6)', rule: 'rgba(20,17,13,0.2)', accent: '#a0202e', mode: 'light' }, // pale rose
+  [-2]: { bg: '#fbe7cf', ink: DARK_INK, muted: 'rgba(20,17,13,0.6)', rule: 'rgba(20,17,13,0.2)', accent: '#a04a0a', mode: 'light' }, // pale peach
+  [-1]: { bg: '#f9f1c4', ink: DARK_INK, muted: 'rgba(20,17,13,0.6)', rule: 'rgba(20,17,13,0.2)', accent: '#5a4a0a', mode: 'light' }, // pale butter
+  [ 0]: { bg: '#ddefd2', ink: DARK_INK, muted: 'rgba(20,17,13,0.6)', rule: 'rgba(20,17,13,0.2)', accent: '#1f5a1a', mode: 'light' }, // pale mint
+  [ 1]: { bg: '#d3e6f4', ink: DARK_INK, muted: 'rgba(20,17,13,0.6)', rule: 'rgba(20,17,13,0.2)', accent: '#0f3a7a', mode: 'light' }, // pale sky
+  [ 2]: { bg: '#dbd7ef', ink: DARK_INK, muted: 'rgba(20,17,13,0.6)', rule: 'rgba(20,17,13,0.2)', accent: '#2d2080', mode: 'light' }, // pale lilac
+  [ 3]: { bg: '#e8d8ef', ink: DARK_INK, muted: 'rgba(20,17,13,0.6)', rule: 'rgba(20,17,13,0.2)', accent: '#4a1a7a', mode: 'light' }  // pale orchid
 };
 
 /** @param {number} spectrum */
