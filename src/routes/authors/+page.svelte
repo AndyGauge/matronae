@@ -53,7 +53,12 @@
       <section class="author" id={author.name.toLowerCase().replace(/\s+/g, '-')}>
         <header class="author-head">
           <div class="author-head-text">
-            <h2 class="author-name">{author.name}</h2>
+            <h2 class="author-name">
+              <span>{author.name}</span>
+              {#if author.symbols}
+                <span class="author-symbols" aria-label="Sex of author">{author.symbols}</span>
+              {/if}
+            </h2>
             {#if author.epithet}
               <div class="epithet">{author.epithet}</div>
             {/if}
@@ -195,6 +200,18 @@
     letter-spacing: -0.015em;
     color: var(--ink);
     margin: 0;
+    display: flex;
+    align-items: baseline;
+    gap: 0.5em;
+    flex-wrap: wrap;
+  }
+
+  .author-symbols {
+    font-family: var(--sans);
+    font-style: normal;
+    font-size: 0.82em;
+    letter-spacing: 0.05em;
+    color: var(--muted);
   }
 
   .epithet {

@@ -1,5 +1,8 @@
 // Author commentary entries. Each record:
 //   name       the author's name or tradition
+//   symbols    ♀ / ♂ / ♀♂ glyphs marking the author's sex. Every attested
+//              canonical author of scripture is male — which is itself
+//              part of the argument the book is making visible.
 //   epithet    a short phrase naming their role in the argument (optional)
 //   dates      lived / active dates
 //   books      books of the Bible this author is responsible for — used
@@ -9,6 +12,7 @@
 export const authors = [
   {
     name: 'Paul of Tarsus',
+    symbols: '♂',
     epithet: 'The Architect',
     dates: 'c. 5 – c. 67 CE',
     books: [
@@ -41,6 +45,7 @@ export const authors = [
   },
   {
     name: 'Luke the Physician',
+    symbols: '♂',
     epithet: 'The Pairer',
     dates: 'active c. 50 – 80 CE',
     books: ['Luke', 'Acts'],
@@ -53,6 +58,7 @@ export const authors = [
   },
   {
     name: 'The Evangelist John',
+    symbols: '♂',
     epithet: 'The Close Observer',
     dates: 'late first century',
     books: ['John'],
@@ -64,6 +70,7 @@ export const authors = [
   },
   {
     name: 'Peter',
+    symbols: '♂',
     epithet: 'The Fisher',
     dates: 'c. 1 BCE – c. 64–67 CE',
     books: ['1 Peter', '2 Peter'],
@@ -75,6 +82,7 @@ export const authors = [
   },
   {
     name: 'The Torah compilers',
+    symbols: '♂',
     epithet: 'The Weavers',
     dates: 'compiled c. 900–500 BCE',
     books: ['Genesis', 'Exodus', 'Leviticus', 'Numbers', 'Deuteronomy'],
@@ -86,6 +94,7 @@ export const authors = [
   },
   {
     name: 'The Deuteronomistic Historian',
+    symbols: '♂',
     epithet: 'The Memorialist',
     dates: 'composed c. 620 BCE, expanded in exile',
     books: ['Judges', '1 Samuel', '2 Samuel', '1 Kings', '2 Kings', '2 Chronicles', 'Micah'],
@@ -97,6 +106,7 @@ export const authors = [
   },
   {
     name: 'The sages of Proverbs and the Song',
+    symbols: '♂',
     epithet: 'The Quoters',
     dates: 'compiled c. 950–450 BCE',
     books: ['Proverbs', 'Song of Songs'],
@@ -108,6 +118,7 @@ export const authors = [
   },
   {
     name: 'Jesus ben Sira',
+    symbols: '♂',
     epithet: 'The Patristic Seed',
     dates: 'active c. 180 BCE',
     books: ['Sirach'],
@@ -119,6 +130,7 @@ export const authors = [
   },
   {
     name: 'The preservers of the quiet voices',
+    symbols: '♂',
     epithet: 'The Anonymous',
     dates: 'various, c. 500 BCE – c. 100 BCE',
     books: ['Ruth', 'Esther', 'Joel'],
