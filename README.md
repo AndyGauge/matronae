@@ -1,6 +1,6 @@
 # Matronae
 
-Scripture on gender roles, left to right — forty passages from the Hebrew Bible, the New Testament, and the deuterocanon, arranged by who-leads-whom rather than by book or date.
+Scripture on gender roles, left to right — forty-one passages from the Hebrew Bible, the New Testament, and the deuterocanon, arranged by who-leads-whom rather than by book or date.
 
 Rendered as a design-monograph web reader modeled on *Déjà Vu* and *By Degrees*: one passage per page, paginated left-to-right with keyboard, wheel, or swipe. Each page paints itself with a color from a blue → white → red ramp keyed to the passage's spectrum score (−5 women lead … +5 women must not teach).
 
