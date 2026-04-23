@@ -1,6 +1,7 @@
-// Spectrum ramp: -5 (deep blue / far left) → 0 (neutral) → +5 (deep red / far right).
-// Each bucket returns a full color set used as CSS variables on the page element.
-// The darker backgrounds carry light ink; the paler backgrounds carry dark ink.
+// Spectrum ramp: -5 (pale red / women lead) → 0 (pale green / one in Christ) → +5 (pale violet / women silent).
+// Each bucket is a very pale ROYGBIV wash — red, red-orange, orange, amber, yellow,
+// green, teal, blue, indigo, violet, deep violet — light enough to carry dark ink
+// throughout. A subtle chromatic drift, not a saturated rainbow.
 
 const LIGHT_INK = '#f4efe3';
 const DARK_INK = '#14110d';
@@ -9,17 +10,17 @@ const DARK_INK = '#14110d';
 
 /** @type {Record<number, Palette>} */
 const RAMP = {
-  [-5]: { bg: '#0a1f4a', ink: LIGHT_INK, muted: 'rgba(244,239,227,0.62)', rule: 'rgba(244,239,227,0.22)', accent: '#f6c84a', mode: 'dark' },
-  [-4]: { bg: '#142f6d', ink: LIGHT_INK, muted: 'rgba(244,239,227,0.64)', rule: 'rgba(244,239,227,0.22)', accent: '#f6c84a', mode: 'dark' },
-  [-3]: { bg: '#2a4f9c', ink: LIGHT_INK, muted: 'rgba(244,239,227,0.7)',  rule: 'rgba(244,239,227,0.24)', accent: '#ffd97a', mode: 'dark' },
-  [-2]: { bg: '#7e9fd0', ink: DARK_INK,  muted: 'rgba(20,17,13,0.62)',    rule: 'rgba(20,17,13,0.2)',     accent: '#0f2a5e', mode: 'light' },
-  [-1]: { bg: '#a6bdd9', ink: DARK_INK,  muted: 'rgba(20,17,13,0.6)',     rule: 'rgba(20,17,13,0.18)',    accent: '#1a3a7a', mode: 'light' },
-  [ 0]: { bg: '#ece8df', ink: DARK_INK,  muted: 'rgba(20,17,13,0.56)',    rule: 'rgba(20,17,13,0.16)',    accent: '#6a6a6a', mode: 'light' },
-  [ 1]: { bg: '#e8bfb5', ink: DARK_INK,  muted: 'rgba(20,17,13,0.6)',     rule: 'rgba(20,17,13,0.18)',    accent: '#8a2118', mode: 'light' },
-  [ 2]: { bg: '#d89088', ink: DARK_INK,  muted: 'rgba(20,17,13,0.62)',    rule: 'rgba(20,17,13,0.2)',     accent: '#5e0c12', mode: 'light' },
-  [ 3]: { bg: '#a8434a', ink: LIGHT_INK, muted: 'rgba(244,239,227,0.74)', rule: 'rgba(244,239,227,0.26)', accent: '#ffd97a', mode: 'dark' },
-  [ 4]: { bg: '#7a1e26', ink: LIGHT_INK, muted: 'rgba(244,239,227,0.68)', rule: 'rgba(244,239,227,0.24)', accent: '#f6c84a', mode: 'dark' },
-  [ 5]: { bg: '#4a0c12', ink: LIGHT_INK, muted: 'rgba(244,239,227,0.62)', rule: 'rgba(244,239,227,0.22)', accent: '#f6c84a', mode: 'dark' }
+  [-5]: { bg: '#f8dadd', ink: DARK_INK, muted: 'rgba(20,17,13,0.58)', rule: 'rgba(20,17,13,0.18)', accent: '#a82030', mode: 'light' }, // pale red
+  [-4]: { bg: '#f9e0cc', ink: DARK_INK, muted: 'rgba(20,17,13,0.58)', rule: 'rgba(20,17,13,0.18)', accent: '#a44512', mode: 'light' }, // pale red-orange
+  [-3]: { bg: '#fbe8cb', ink: DARK_INK, muted: 'rgba(20,17,13,0.58)', rule: 'rgba(20,17,13,0.18)', accent: '#a86810', mode: 'light' }, // pale orange
+  [-2]: { bg: '#fcefcd', ink: DARK_INK, muted: 'rgba(20,17,13,0.58)', rule: 'rgba(20,17,13,0.18)', accent: '#8a6a0a', mode: 'light' }, // pale amber
+  [-1]: { bg: '#fbf6c9', ink: DARK_INK, muted: 'rgba(20,17,13,0.58)', rule: 'rgba(20,17,13,0.18)', accent: '#6a6010', mode: 'light' }, // pale yellow
+  [ 0]: { bg: '#e4efce', ink: DARK_INK, muted: 'rgba(20,17,13,0.58)', rule: 'rgba(20,17,13,0.18)', accent: '#2a6a1a', mode: 'light' }, // pale green
+  [ 1]: { bg: '#d2eae7', ink: DARK_INK, muted: 'rgba(20,17,13,0.58)', rule: 'rgba(20,17,13,0.18)', accent: '#1a5a5a', mode: 'light' }, // pale teal
+  [ 2]: { bg: '#d9e5f2', ink: DARK_INK, muted: 'rgba(20,17,13,0.58)', rule: 'rgba(20,17,13,0.18)', accent: '#1a4a8a', mode: 'light' }, // pale blue
+  [ 3]: { bg: '#dcd5ec', ink: DARK_INK, muted: 'rgba(20,17,13,0.58)', rule: 'rgba(20,17,13,0.18)', accent: '#2d2380', mode: 'light' }, // pale indigo
+  [ 4]: { bg: '#e2d3ee', ink: DARK_INK, muted: 'rgba(20,17,13,0.58)', rule: 'rgba(20,17,13,0.18)', accent: '#4a1e8a', mode: 'light' }, // pale violet
+  [ 5]: { bg: '#d8c7e6', ink: DARK_INK, muted: 'rgba(20,17,13,0.58)', rule: 'rgba(20,17,13,0.18)', accent: '#3a1470', mode: 'light' }  // pale deep violet
 };
 
 /** @param {number} spectrum */

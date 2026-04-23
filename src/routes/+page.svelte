@@ -129,7 +129,17 @@
   h1 .italic {
     font-style: italic;
     font-weight: 200;
-    background: linear-gradient(to right, #0a1f4a 0%, #4a0c12 100%);
+    background: linear-gradient(to right,
+      #c8202e 0%,
+      #de5a22 10%,
+      #e88821 20%,
+      #ebb52b 30%,
+      #d6c52a 40%,
+      #5aa53f 50%,
+      #2b9e9e 60%,
+      #2b6dae 70%,
+      #3c2e80 85%,
+      #3a1470 100%);
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
