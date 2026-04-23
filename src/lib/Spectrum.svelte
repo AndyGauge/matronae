@@ -49,8 +49,8 @@
   <span class="axis"></span>
 
   <span class="labels">
-    <span class="end left">Left</span>
-    <span class="end right">Right</span>
+    <span class="end left" aria-label="Female">♀</span>
+    <span class="end right" aria-label="Male">♂</span>
   </span>
 
   {#each stops as v}
@@ -114,9 +114,8 @@
 
   .end {
     font-family: var(--sans);
-    font-size: 0.6rem;
-    text-transform: uppercase;
-    letter-spacing: 0.3em;
+    font-size: 0.95rem;
+    line-height: 1;
     color: var(--muted);
   }
 
@@ -184,7 +183,7 @@
   }
 
   @media (max-width: 720px) {
-    .end { font-size: 0.52rem; letter-spacing: 0.22em; }
+    .end { font-size: 0.85rem; }
     .swatch { width: 6px; height: 6px; }
     .dot { width: 10px; height: 10px; }
     .dot.active { width: 14px; height: 14px; }
