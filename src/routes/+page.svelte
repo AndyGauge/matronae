@@ -72,6 +72,7 @@
   <div class="meta bottom">
     <button onclick={start}>Begin&nbsp;→</button>
     <a class="contents-link" href="{base}/contents">Contents</a>
+    <a class="contents-link" href="{base}/authors">Authors</a>
     <span class="hint">Enter, arrow, swipe, or scroll</span>
   </div>
 </main>

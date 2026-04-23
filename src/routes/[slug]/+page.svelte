@@ -98,6 +98,7 @@
     <a class="mark vt-title" href="{base}/">Matronae</a>
     <nav class="top-nav" aria-label="Spectrum position">
       <a class="contents-link" href="{base}/contents">Contents</a>
+      <a class="contents-link" href="{base}/authors">Authors</a>
       <span class="symbols">{symbols}</span>
     </nav>
   </header>
