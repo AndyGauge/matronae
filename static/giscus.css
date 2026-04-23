@@ -1,0 +1,299 @@
+/* Déjà Vu — Giscus monograph theme */
+/* Bone / ink / rust. Fraunces + Inter. Quiet chrome. */
+
+main {
+  --color-prettylights-syntax-comment: #6b6359;
+  --color-prettylights-syntax-constant: #b23a28;
+  --color-prettylights-syntax-entity: #8a5a3a;
+  --color-prettylights-syntax-storage-modifier-import: #14110d;
+  --color-prettylights-syntax-entity-tag: #6b6359;
+  --color-prettylights-syntax-keyword: #b23a28;
+  --color-prettylights-syntax-string: #6b6359;
+  --color-prettylights-syntax-variable: #8a5a3a;
+  --color-prettylights-syntax-brackethighlighter-unmatched: #b23a28;
+  --color-prettylights-syntax-invalid-illegal-text: #f3ece1;
+  --color-prettylights-syntax-invalid-illegal-bg: #b23a28;
+  --color-prettylights-syntax-carriage-return-text: #f3ece1;
+  --color-prettylights-syntax-carriage-return-bg: #b23a28;
+  --color-prettylights-syntax-string-regexp: #6b6359;
+  --color-prettylights-syntax-markup-list: #3a322a;
+  --color-prettylights-syntax-markup-heading: #14110d;
+  --color-prettylights-syntax-markup-italic: #3a322a;
+  --color-prettylights-syntax-markup-bold: #14110d;
+  --color-prettylights-syntax-markup-deleted-text: #b23a28;
+  --color-prettylights-syntax-markup-deleted-bg: #f6e0dc;
+  --color-prettylights-syntax-markup-inserted-text: #3a6b4a;
+  --color-prettylights-syntax-markup-inserted-bg: #e5ebe4;
+  --color-prettylights-syntax-markup-changed-text: #8a5a3a;
+  --color-prettylights-syntax-markup-changed-bg: #ede1d0;
+  --color-prettylights-syntax-markup-ignored-text: #f3ece1;
+  --color-prettylights-syntax-markup-ignored-bg: #14110d;
+  --color-prettylights-syntax-meta-diff-range: #8a5a3a;
+  --color-prettylights-syntax-brackethighlighter-angle: #6b6359;
+  --color-prettylights-syntax-sublimelinter-gutter-mark: #aea597;
+  --color-prettylights-syntax-constant-other-reference-link: #b23a28;
+
+  --color-btn-text: #14110d;
+  --color-btn-bg: #f3ece1;
+  --color-btn-border: rgba(20, 17, 13, 0.18);
+  --color-btn-shadow: 0 0 transparent;
+  --color-btn-inset-shadow: 0 0 transparent;
+  --color-btn-hover-bg: #eadfcd;
+  --color-btn-hover-border: rgba(20, 17, 13, 0.28);
+  --color-btn-active-bg: #e3d5bc;
+  --color-btn-active-border: rgba(20, 17, 13, 0.32);
+  --color-btn-selected-bg: #e3d5bc;
+
+  --color-btn-primary-text: #f3ece1;
+  --color-btn-primary-bg: #b23a28;
+  --color-btn-primary-border: #8c2e1f;
+  --color-btn-primary-shadow: 0 0 transparent;
+  --color-btn-primary-inset-shadow: 0 0 transparent;
+  --color-btn-primary-hover-bg: #9c2e1e;
+  --color-btn-primary-hover-border: #7a2617;
+  --color-btn-primary-selected-bg: #7a2617;
+  --color-btn-primary-selected-shadow: 0 0 transparent;
+  --color-btn-primary-disabled-text: rgba(243, 236, 225, 0.6);
+  --color-btn-primary-disabled-bg: #c87a6c;
+  --color-btn-primary-disabled-border: transparent;
+  --color-btn-primary-icon: #f3ece1;
+  --color-btn-primary-counter-bg: rgba(243, 236, 225, 0.2);
+
+  --color-action-list-item-default-hover-bg: rgba(20, 17, 13, 0.05);
+
+  --color-segmented-control-bg: #ede4d3;
+  --color-segmented-control-button-bg: #f3ece1;
+  --color-segmented-control-button-selected-border: rgba(20, 17, 13, 0.22);
+
+  --color-fg-default: #14110d;
+  --color-fg-muted: #3a322a;
+  --color-fg-subtle: #6b6359;
+  --color-canvas-default: #f3ece1;
+  --color-canvas-overlay: #faf5eb;
+  --color-canvas-inset: #ede4d3;
+  --color-canvas-subtle: #ede4d3;
+  --color-border-default: rgba(20, 17, 13, 0.14);
+  --color-border-muted: rgba(20, 17, 13, 0.08);
+  --color-neutral-muted: rgba(20, 17, 13, 0.08);
+  --color-neutral-subtle: rgba(20, 17, 13, 0.04);
+
+  --color-accent-fg: #b23a28;
+  --color-accent-emphasis: #b23a28;
+  --color-accent-muted: rgba(178, 58, 40, 0.35);
+  --color-accent-subtle: rgba(178, 58, 40, 0.1);
+
+  --color-success-fg: #3a6b4a;
+  --color-success-emphasis: #3a6b4a;
+  --color-success-muted: rgba(58, 107, 74, 0.35);
+  --color-success-subtle: rgba(58, 107, 74, 0.1);
+
+  --color-attention-fg: #8a5a3a;
+  --color-attention-emphasis: #8a5a3a;
+  --color-attention-muted: rgba(138, 90, 58, 0.35);
+  --color-attention-subtle: rgba(138, 90, 58, 0.1);
+
+  --color-danger-fg: #b23a28;
+  --color-danger-emphasis: #b23a28;
+  --color-danger-muted: rgba(178, 58, 40, 0.35);
+  --color-danger-subtle: rgba(178, 58, 40, 0.1);
+
+  --color-primer-shadow-inset: 0 0 transparent;
+  --color-scale-gray-1: #ede4d3;
+}
+
+main {
+  --color-text-primary: var(--color-fg-default);
+  color: var(--color-fg-default);
+  background-color: transparent;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+.gsc-comments > .gsc-header {
+  display: none;
+}
+
+.gsc-comments > .gsc-comment-box {
+  margin-top: 0;
+  border-color: var(--color-border-muted);
+  border-radius: 2px;
+  background-color: transparent;
+}
+
+.gsc-comment-box-tabs {
+  background-color: transparent;
+  border-bottom: 1px solid var(--color-border-muted);
+}
+
+.gsc-comment-box-tabs .gsc-tab-button {
+  font-family: 'Inter', sans-serif;
+  font-size: 0.72rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--color-fg-subtle);
+  border-bottom-color: transparent;
+}
+
+.gsc-comment-box-tabs .gsc-tab-button.active-tab {
+  color: var(--color-fg-default);
+  border-bottom-color: var(--color-accent-emphasis);
+}
+
+.gsc-comment-box-main textarea,
+.gsc-comment-box-main .gsc-comment-box-textarea {
+  font-family: 'Fraunces', Georgia, serif;
+  font-size: 1rem;
+  line-height: 1.55;
+  background-color: #faf5eb !important;
+  color: var(--color-fg-default);
+  border-color: var(--color-border-muted);
+  border-radius: 2px;
+}
+
+.gsc-comment-box-bottom {
+  background-color: transparent;
+  border-top: 1px solid var(--color-border-muted);
+}
+
+.gsc-comment-header,
+.gsc-reactions-count,
+.gsc-comments-count {
+  font-family: 'Inter', sans-serif;
+  font-size: 0.72rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--color-fg-subtle);
+  font-weight: 500;
+}
+
+.gsc-reactions {
+  margin: 0.8rem 0 1.6rem;
+  padding: 0;
+  border-bottom: 1px solid var(--color-border-muted);
+}
+
+.gsc-reactions-menu-container .gsc-reactions-menu {
+  background-color: var(--color-canvas-overlay);
+  border-color: var(--color-border-default);
+}
+
+.gsc-comment {
+  border-color: var(--color-border-muted);
+  background-color: transparent;
+  border-radius: 2px;
+}
+
+.gsc-comment > .gsc-comment-content {
+  border-color: var(--color-border-muted);
+}
+
+.gsc-comment-author-avatar {
+  border-radius: 50%;
+  border: 1px solid var(--color-border-muted);
+}
+
+.gsc-comment-author {
+  font-family: 'Fraunces', Georgia, serif;
+  font-style: italic;
+  font-weight: 400;
+  color: var(--color-fg-default);
+}
+
+.gsc-comment-author-created-at {
+  font-family: 'Inter', sans-serif;
+  font-size: 0.7rem;
+  color: var(--color-fg-subtle);
+}
+
+.markdown-body {
+  font-family: 'Fraunces', Georgia, serif;
+  font-weight: 300;
+  font-size: 1rem;
+  line-height: 1.55;
+  color: var(--color-fg-default);
+  background-color: transparent;
+}
+
+.markdown-body p {
+  margin-bottom: 0.9rem;
+}
+
+.markdown-body a {
+  color: var(--color-accent-fg);
+  border-bottom: 1px solid transparent;
+  text-decoration: none;
+  transition: border-color 200ms ease;
+}
+.markdown-body a:hover {
+  border-bottom-color: var(--color-accent-fg);
+}
+
+.markdown-body code,
+.markdown-body pre {
+  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+  background-color: var(--color-canvas-inset);
+  border-radius: 2px;
+}
+
+.gsc-social-reaction-summary {
+  color: var(--color-fg-subtle);
+}
+
+.gsc-pagination-button {
+  background-color: transparent;
+  border: 1px solid var(--color-border-default);
+  border-radius: 2px;
+  font-family: 'Inter', sans-serif;
+  font-size: 0.72rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--color-fg-muted);
+}
+.gsc-pagination-button:hover:not(:disabled) {
+  background-color: var(--color-canvas-inset);
+  color: var(--color-fg-default);
+}
+
+.gsc-direct-reaction-buttons .gsc-direct-reaction-button,
+.gsc-reactions-menu-item {
+  color: var(--color-fg-subtle);
+}
+
+.gsc-replies {
+  border-top: 1px solid var(--color-border-muted);
+  background-color: rgba(20, 17, 13, 0.02);
+}
+
+.gsc-reply-box {
+  border-color: var(--color-border-muted);
+  background-color: transparent;
+}
+
+.btn-primary,
+button.btn-primary {
+  background-color: var(--color-btn-primary-bg) !important;
+  border-color: var(--color-btn-primary-border) !important;
+  color: var(--color-btn-primary-text) !important;
+  font-family: 'Inter', sans-serif;
+  font-size: 0.76rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  font-weight: 500;
+  border-radius: 2px;
+  box-shadow: none !important;
+}
+.btn-primary:hover,
+button.btn-primary:hover {
+  background-color: var(--color-btn-primary-hover-bg) !important;
+}
+
+.btn {
+  border-radius: 2px;
+  box-shadow: none !important;
+  font-family: 'Inter', sans-serif;
+}
+
+/* Quiet the reactions panel header */
+.gsc-comments-count-number {
+  color: var(--color-fg-default);
+  font-weight: 500;
+}
