@@ -15,8 +15,8 @@ const RAMP = {
   [-1]: { bg: '#f5dfa3', ink: DARK_INK, muted: 'rgba(20,17,13,0.6)', rule: 'rgba(20,17,13,0.2)', accent: '#7a5a10', mode: 'light' }, // pale gold
   [ 0]: { bg: '#ddefd2', ink: DARK_INK, muted: 'rgba(20,17,13,0.6)', rule: 'rgba(20,17,13,0.2)', accent: '#1f5a1a', mode: 'light' }, // pale mint
   [ 1]: { bg: '#d3e6f4', ink: DARK_INK, muted: 'rgba(20,17,13,0.6)', rule: 'rgba(20,17,13,0.2)', accent: '#0f3a7a', mode: 'light' }, // pale sky
-  [ 2]: { bg: '#0b0b22', ink: LIGHT_INK, muted: 'rgba(244,239,227,0.7)', rule: 'rgba(244,239,227,0.26)', accent: '#9488cd', mode: 'dark' }, // inverted — deep indigo on near-black
-  [ 3]: { bg: '#1a0b24', ink: LIGHT_INK, muted: 'rgba(244,239,227,0.7)', rule: 'rgba(244,239,227,0.26)', accent: '#c49ad8', mode: 'dark' }  // inverted — deep violet on near-black
+  [ 2]: { bg: '#dbd7ef', ink: DARK_INK,  muted: 'rgba(20,17,13,0.6)',    rule: 'rgba(20,17,13,0.2)',     accent: '#2d2080', mode: 'light' }, // pale indigo
+  [ 3]: { bg: '#1a0b24', ink: LIGHT_INK, muted: 'rgba(244,239,227,0.7)', rule: 'rgba(244,239,227,0.26)', accent: '#c49ad8', mode: 'dark'  }  // inverted — deep violet on near-black
 };
 
 /** @param {number} spectrum */
