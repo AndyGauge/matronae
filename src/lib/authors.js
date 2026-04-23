@@ -137,7 +137,8 @@ export const authors = [
     commentary: [
       'Two books of the Hebrew Bible are named for women, and both are by anonymous authors. The Book of Ruth — composed most likely in the Persian era, around the time Ezra was ordering the dissolution of mixed marriages — canonizes a Moabite great-grandmother of David as a quiet counter-witness to the rising theology of ethnic purity. The Book of Esther, set in Xerxes\' court, records a Jewish queen\'s political courage saving her people from genocide, in a text that never once names God.',
       'Joel, a prophet whose date and setting are both contested, left behind one of the most-quoted passages in the New Testament — *your sons and your daughters shall prophesy* — which Peter read aloud at Pentecost as the charter of the new community.',
-      'These writers did not sign their names. What survived is the material they preserved: women acting decisively in crisis, women as the vehicle of God\'s redemptive intervention, women included by covenant across ethnic and legal lines the surrounding culture enforced strictly.'
+      'These writers did not sign their names. What survived is the material they preserved: women acting decisively in crisis, women as the vehicle of God\'s redemptive intervention, women included by covenant across ethnic and legal lines the surrounding culture enforced strictly.',
+      'Realistically the authors were almost certainly men. Scribal literacy in the ancient world was overwhelmingly male; the production of a canonical text required training, resources, and social access that were structurally closed to most women. But *the possibility is the weight.* Every other canonical author in this list is known and male. These are the only ones where the door is even open — and when every other row reads ♂, the one row that might carry a ♀ is doing the work the whole disproportion is asking you to feel.'
     ]
   }
 ];
