@@ -56,7 +56,7 @@
   </div>
 
   <div class="title-block">
-    <div class="kicker">Scripture on gender, left to right</div>
+    <div class="kicker">Scripture on gender</div>
     <h1 class="vt-title">
       <span class="italic">Matronae</span>
     </h1>
