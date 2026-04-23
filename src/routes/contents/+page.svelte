@@ -19,12 +19,19 @@
 
   // Force the neutral white palette on the contents page so the category
   // swatches read cleanly regardless of which page the reader came from.
+  // Also override the global body overflow:hidden (which exists for the
+  // fixed-viewport reader pages) so this long list can scroll.
   $effect(() => {
     if (typeof document === 'undefined') return;
     document.documentElement.setAttribute(
       'style',
       '--bg:#ffffff;--ink:#14110d;--muted:rgba(20,17,13,0.56);--rule:rgba(20,17,13,0.16);--accent:#6a6a6a;'
     );
+    const prevOverflow = document.body.style.overflow;
+    document.body.style.overflow = 'auto';
+    return () => {
+      document.body.style.overflow = prevOverflow;
+    };
   });
 
   function symbolsFor(spectrum) {
