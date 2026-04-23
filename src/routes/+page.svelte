@@ -8,7 +8,7 @@
   let dragOffset = $state(0);
   let dragging = $derived(dragOffset !== 0);
 
-  const stops = [-5, -4, -3, -2, -1, 0, 1, 2, 3, 4, 5];
+  const stops = [-3, -2, -1, 0, 1, 2, 3];
   const gradient = `linear-gradient(to right, ${stops.map((s) => paletteFor(s).bg).join(', ')})`;
 
   // Force a neutral white palette on the cover so returning from a deep-red or
@@ -130,16 +130,13 @@
     font-style: italic;
     font-weight: 200;
     background: linear-gradient(to right,
-      #c8202e 0%,
-      #de5a22 10%,
-      #e88821 20%,
-      #ebb52b 30%,
-      #d6c52a 40%,
-      #5aa53f 50%,
-      #2b9e9e 60%,
-      #2b6dae 70%,
-      #3c2e80 85%,
-      #3a1470 100%);
+      #e03040 0%,
+      #f08030 16.67%,
+      #e8c822 33.33%,
+      #4ab040 50%,
+      #3a8cd0 66.67%,
+      #5a4ac0 83.33%,
+      #9040c0 100%);
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;

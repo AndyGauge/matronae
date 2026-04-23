@@ -7,7 +7,7 @@
   let { currentNum } = $props();
 
   const RANGE = SPECTRUM_MAX - SPECTRUM_MIN;
-  const stops = [-5, -3, -1, 0, 1, 3, 5];
+  const stops = [-3, -2, -1, 0, 1, 2, 3];
 
   function x(spectrum) {
     return ((spectrum - SPECTRUM_MIN) / RANGE) * 100;
