@@ -1,7 +1,7 @@
-// Spectrum ramp: -3 (red / women lead) → 0 (green / one in Christ) → +3 (violet / women silent).
-// Seven pure ROYGBIV buckets, one per spectrum position. Each hue is medium-pale —
-// clearly named (red, orange, yellow, green, blue, indigo, violet) and light enough
-// to carry dark ink throughout. Dramatic color steps, subtle ink.
+// Spectrum ramp: -3 (pale red / women lead) → 0 (pale green / one in Christ) → +3 (pale violet / women silent).
+// Seven ROYGBIV buckets at about half opacity — each bucket is the saturated rainbow
+// hue mixed halfway toward white, so the chromatic drift is quiet and dark ink
+// reads comfortably on every page.
 
 const LIGHT_INK = '#f4efe3';
 const DARK_INK = '#14110d';
@@ -10,13 +10,13 @@ const DARK_INK = '#14110d';
 
 /** @type {Record<number, Palette>} */
 const RAMP = {
-  [-3]: { bg: '#f89ba0', ink: DARK_INK, muted: 'rgba(20,17,13,0.6)',  rule: 'rgba(20,17,13,0.2)', accent: '#a0202e', mode: 'light' }, // Red
-  [-2]: { bg: '#f5b66f', ink: DARK_INK, muted: 'rgba(20,17,13,0.6)',  rule: 'rgba(20,17,13,0.2)', accent: '#a04a0a', mode: 'light' }, // Orange
-  [-1]: { bg: '#f0d64a', ink: DARK_INK, muted: 'rgba(20,17,13,0.6)',  rule: 'rgba(20,17,13,0.2)', accent: '#5a4a0a', mode: 'light' }, // Yellow
-  [ 0]: { bg: '#98cf76', ink: DARK_INK, muted: 'rgba(20,17,13,0.6)',  rule: 'rgba(20,17,13,0.2)', accent: '#1f5a1a', mode: 'light' }, // Green
-  [ 1]: { bg: '#7ab4e0', ink: DARK_INK, muted: 'rgba(20,17,13,0.6)',  rule: 'rgba(20,17,13,0.2)', accent: '#0f3a7a', mode: 'light' }, // Blue
-  [ 2]: { bg: '#9488cd', ink: DARK_INK, muted: 'rgba(20,17,13,0.62)', rule: 'rgba(20,17,13,0.2)', accent: '#2d2080', mode: 'light' }, // Indigo
-  [ 3]: { bg: '#b98cce', ink: DARK_INK, muted: 'rgba(20,17,13,0.62)', rule: 'rgba(20,17,13,0.2)', accent: '#4a1a7a', mode: 'light' }  // Violet
+  [-3]: { bg: '#fccdcf', ink: DARK_INK, muted: 'rgba(20,17,13,0.6)', rule: 'rgba(20,17,13,0.2)', accent: '#a0202e', mode: 'light' }, // pale red
+  [-2]: { bg: '#fadab7', ink: DARK_INK, muted: 'rgba(20,17,13,0.6)', rule: 'rgba(20,17,13,0.2)', accent: '#a04a0a', mode: 'light' }, // pale orange
+  [-1]: { bg: '#f7eaa4', ink: DARK_INK, muted: 'rgba(20,17,13,0.6)', rule: 'rgba(20,17,13,0.2)', accent: '#5a4a0a', mode: 'light' }, // pale yellow
+  [ 0]: { bg: '#cbe7ba', ink: DARK_INK, muted: 'rgba(20,17,13,0.6)', rule: 'rgba(20,17,13,0.2)', accent: '#1f5a1a', mode: 'light' }, // pale green
+  [ 1]: { bg: '#bcd9ef', ink: DARK_INK, muted: 'rgba(20,17,13,0.6)', rule: 'rgba(20,17,13,0.2)', accent: '#0f3a7a', mode: 'light' }, // pale blue
+  [ 2]: { bg: '#c9c3e6', ink: DARK_INK, muted: 'rgba(20,17,13,0.6)', rule: 'rgba(20,17,13,0.2)', accent: '#2d2080', mode: 'light' }, // pale indigo
+  [ 3]: { bg: '#dcc5e6', ink: DARK_INK, muted: 'rgba(20,17,13,0.6)', rule: 'rgba(20,17,13,0.2)', accent: '#4a1a7a', mode: 'light' }  // pale violet
 };
 
 /** @param {number} spectrum */

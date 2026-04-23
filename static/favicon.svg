@@ -1,1 +1,16 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><defs><linearGradient id="g" x1="0" x2="1"><stop offset="0" stop-color="#0a1f4a"/><stop offset="0.5" stop-color="#ece8df"/><stop offset="1" stop-color="#4a0c12"/></linearGradient></defs><rect width="32" height="32" fill="url(#g)"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <radialGradient id="diffusion" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="1"/>
+      <stop offset="12%" stop-color="#d8b5e0" stop-opacity="0.95"/>
+      <stop offset="26%" stop-color="#9488cd" stop-opacity="0.95"/>
+      <stop offset="40%" stop-color="#7ab4e0" stop-opacity="0.95"/>
+      <stop offset="54%" stop-color="#98cf76" stop-opacity="0.95"/>
+      <stop offset="68%" stop-color="#f0d64a" stop-opacity="0.95"/>
+      <stop offset="82%" stop-color="#f5b66f" stop-opacity="0.92"/>
+      <stop offset="94%" stop-color="#f89ba0" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#f89ba0" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <circle cx="32" cy="32" r="32" fill="url(#diffusion)"/>
+</svg>
