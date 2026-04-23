@@ -15,6 +15,12 @@
   let prevSection = $derived(prev(section.num));
   let position = $derived(section.orderIndex + 1);
   let total = flat.length;
+  let symbols = $derived.by(() => {
+    const s = section.spectrum;
+    if (s === 0) return '♀♂';
+    const glyph = s > 0 ? '♂' : '♀';
+    return glyph.repeat(Math.abs(s));
+  });
 
   let dragOffset = $state(0);
   let dragging = $derived(dragOffset !== 0);
@@ -90,10 +96,8 @@
 >
   <header class="top">
     <a class="mark vt-title" href="{base}/">Matronae</a>
-    <nav class="top-nav">
-      <span class="side-mark">{section.spectrum < 0 ? 'Left' : section.spectrum > 0 ? 'Right' : 'Center'}</span>
-      <span class="sep">·</span>
-      <span>{section.spectrum > 0 ? '+' : ''}{section.spectrum}</span>
+    <nav class="top-nav" aria-label="Spectrum position">
+      <span class="symbols">{symbols}</span>
     </nav>
   </header>
 
@@ -239,8 +243,14 @@
     align-items: center;
     gap: 0.7rem;
   }
-  .top-nav .sep { color: var(--rule); }
-  .side-mark { color: var(--accent); }
+
+  .symbols {
+    font-family: var(--sans);
+    font-size: 1.05rem;
+    line-height: 1;
+    letter-spacing: 0.1em;
+    color: var(--accent);
+  }
 
   .body {
     display: grid;
