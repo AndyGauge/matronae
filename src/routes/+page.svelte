@@ -108,7 +108,8 @@
   }
 
   .title-block {
-    align-self: center;
+    align-self: start;
+    margin-top: 4vw;
     max-width: 1100px;
   }
 
