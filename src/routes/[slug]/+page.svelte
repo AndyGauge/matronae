@@ -24,7 +24,7 @@
     // Sync the body background to the current page palette so the view
     // transition crossfades between the correct colors.
     if (typeof document === 'undefined') return;
-    const style = styleFor(section.spectrum);
+    const style = styleFor(section.spectrum, section.invert);
     document.documentElement.setAttribute('style', style);
   });
 
@@ -71,7 +71,7 @@
   }
 
   let hintProgress = $derived(Math.min(1, Math.abs(dragOffset) / 70));
-  let mode = $derived(modeFor(section.spectrum));
+  let mode = $derived(modeFor(section.spectrum, section.invert));
   let spectrumLabel = $derived(SPECTRUM_LABELS[Math.max(-5, Math.min(5, section.spectrum))]);
 </script>
 

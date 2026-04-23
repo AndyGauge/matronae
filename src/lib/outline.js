@@ -559,6 +559,7 @@ const raw = [
     context: 'Paul to Timothy pastoring Ephesus, a city of Artemis',
     year: 65,
     spectrum: 3,
+    invert: true,
     gesture: '*I do not permit a woman to teach or to exercise authority over a man; rather, she is to remain quiet.* The single most-cited verse in the case against women in the pulpit or the elder board.',
     body: '1 Timothy 2:11–15 is the clearest prohibition in the New Testament. Three observations sit at the center of the debate. First, the verb *epitrepō* ("I permit") is in the present tense and can mean "I am not presently permitting" — a particular pastoral ruling, not a universal command. Second, the prohibited behavior is paired: teach AND exercise authority over. The rare Greek verb *authentein* ("exercise authority") appears nowhere else in the New Testament and is used in extrabiblical Greek with a wide range of meanings from "domineer" to "murder" to "assume authority without warrant." Third, verses 13–14 ground the prohibition in the creation order ("Adam was formed first") — a reason complementarian readers take as binding across eras, and egalitarian readers take as addressing a specific problem at Ephesus where some women were teaching a version of proto-Gnostic theology that reversed the Genesis story. On this one verse the question of women in church office has divided Protestantism for five hundred years.',
     citation: '1 Timothy 2:11–15.',

@@ -64,7 +64,7 @@
       class="dot"
       class:active={s.num === currentNum}
       style:left="{x(s.spectrum)}%"
-      style:background={paletteFor(s.spectrum).bg}
+      style:background={paletteFor(s.spectrum, s.invert).bg}
       href="{base}/{s.num}"
       title="{s.num} · {s.title} · {s.year}"
       onclick={(e) => e.stopPropagation()}
