@@ -588,6 +588,7 @@
     .gesture,
     .body-text,
     .source,
+    .culture-panel,
     .eli5 {
       grid-column: 1;
       max-width: none;
