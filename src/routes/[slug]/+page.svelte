@@ -97,6 +97,7 @@
   <header class="top">
     <a class="mark vt-title" href="{base}/">Matronae</a>
     <nav class="top-nav" aria-label="Spectrum position">
+      <a class="contents-link" href="{base}/contents">Contents</a>
       <span class="symbols">{symbols}</span>
     </nav>
   </header>
@@ -250,6 +251,20 @@
     line-height: 1;
     letter-spacing: 0.1em;
     color: var(--accent);
+  }
+
+  .contents-link {
+    font-family: var(--sans);
+    font-size: 0.7rem;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    color: var(--muted);
+    border-bottom: 1px solid transparent;
+    transition: color 160ms ease, border-color 160ms ease;
+  }
+  .contents-link:hover {
+    color: var(--ink);
+    border-bottom-color: var(--ink);
   }
 
   .body {

@@ -71,6 +71,7 @@
 
   <div class="meta bottom">
     <button onclick={start}>Begin&nbsp;→</button>
+    <a class="contents-link" href="{base}/contents">Contents</a>
     <span class="hint">Enter, arrow, swipe, or scroll</span>
   </div>
 </main>
@@ -98,6 +99,11 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 1.2rem;
+  }
+
+  .meta.bottom {
+    flex-wrap: wrap;
   }
 
   .title-block {
@@ -198,6 +204,21 @@
 
   button:hover {
     background: var(--accent);
+  }
+
+  .contents-link {
+    font-family: var(--sans);
+    font-size: 0.72rem;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    color: var(--muted);
+    padding: 0.3rem 0.6rem;
+    border-bottom: 1px solid transparent;
+    transition: color 160ms ease, border-color 160ms ease;
+  }
+  .contents-link:hover {
+    color: var(--ink);
+    border-bottom-color: var(--ink);
   }
 
   .hint {
