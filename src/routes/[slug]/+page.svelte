@@ -145,7 +145,7 @@
       </aside>
     {/if}
 
-    <Giscus term={section.num} />
+    <Giscus term={section.num} mode={mode} />
   </div>
 
   <footer class="bottom">

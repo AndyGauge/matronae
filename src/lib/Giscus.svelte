@@ -16,15 +16,17 @@
   const CATEGORY_ID = 'DIC_kwDOSKrvC84C7h9F';
   // ─────────────────────────────────────────────────────────────────────
 
-  let { term } = $props();
+  let { term, mode = 'light' } = $props();
 
   let containerEl = $state();
   let currentTerm = $state(null);
+  let currentMode = $state(null);
 
-  function mount(t) {
+  function mount(t, m) {
     if (!containerEl) return;
     containerEl.innerHTML = '';
-    const themeUrl = `${window.location.origin}${base}/giscus.css`;
+    const themeFile = m === 'dark' ? 'giscus-dark.css' : 'giscus.css';
+    const themeUrl = `${window.location.origin}${base}/${themeFile}`;
     const s = document.createElement('script');
     s.src = 'https://giscus.app/client.js';
     s.setAttribute('data-repo', REPO);
@@ -47,13 +49,15 @@
 
   onMount(() => {
     currentTerm = term;
-    mount(term);
+    currentMode = mode;
+    mount(term, mode);
   });
 
   $effect(() => {
-    if (term !== currentTerm && containerEl) {
+    if ((term !== currentTerm || mode !== currentMode) && containerEl) {
       currentTerm = term;
-      mount(term);
+      currentMode = mode;
+      mount(term, mode);
     }
   });
 
