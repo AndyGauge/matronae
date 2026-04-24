@@ -201,6 +201,8 @@
     <div class="drag-hint" style:opacity={hintProgress}>
       <span class="bar" style:transform="scaleX({hintProgress})"></span>
     </div>
+
+    <img class="qr" src="{base}/qr.png" alt="QR code to Matronae" />
   </footer>
 </main>
 
@@ -490,6 +492,17 @@
   }
 
   .bottom { font-family: var(--sans); }
+
+  .qr {
+    display: block;
+    width: clamp(40px, 5vw, 56px);
+    height: auto;
+    margin: 0.9rem auto 0;
+    background: #fff;
+    padding: 3px;
+    border-radius: 3px;
+    box-shadow: 0 0 0 1px var(--rule);
+  }
 
   .nav {
     display: grid;

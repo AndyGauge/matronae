@@ -51,9 +51,10 @@
   style:transform="translateX({dragOffset}px)"
 >
   <div class="meta top">
-    <span>Andrew Gauger</span>
-    <span>MMXXVI</span>
+    <span>Andrew Gauger · MMXXVI</span>
   </div>
+
+  <img class="qr" src="{base}/qr.png" alt="QR code to Matronae" />
 
   <div class="title-block">
     <div class="kicker">Scripture on gender</div>
@@ -79,6 +80,7 @@
 
 <style>
   .cover {
+    position: relative;
     height: 100vh;
     height: 100dvh;
     padding: 5vw 7vw;
@@ -87,6 +89,27 @@
     transition: transform 320ms cubic-bezier(0.2, 0.9, 0.3, 1);
     touch-action: pan-y;
     will-change: transform;
+  }
+
+  .qr {
+    position: absolute;
+    top: 5vw;
+    right: 7vw;
+    width: clamp(72px, 9vw, 120px);
+    height: auto;
+    display: block;
+    background: #fff;
+    padding: 4px;
+    border-radius: 4px;
+    box-shadow: 0 0 0 1px var(--rule);
+  }
+
+  @media (max-width: 720px) {
+    .qr {
+      top: 4vw;
+      right: 5vw;
+      width: 64px;
+    }
   }
 
   .cover.dragging { transition: none; }

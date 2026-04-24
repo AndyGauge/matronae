@@ -83,6 +83,8 @@
       </section>
     {/each}
   </div>
+
+  <img class="qr" src="{base}/qr.png" alt="QR code to Matronae" />
 </main>
 
 <style>
@@ -312,5 +314,16 @@
     .entry-title {
       grid-column: 2;
     }
+  }
+
+  .qr {
+    display: block;
+    width: clamp(64px, 7vw, 96px);
+    height: auto;
+    margin: 3rem auto 0;
+    background: #fff;
+    padding: 4px;
+    border-radius: 4px;
+    box-shadow: 0 0 0 1px var(--rule);
   }
 </style>
